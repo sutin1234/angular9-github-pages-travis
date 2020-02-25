@@ -13,7 +13,7 @@ install:
   - npm install
 
 script:
-  - npm build:prod
+  - npm run prod
 
 deploy:
   provider: pages
