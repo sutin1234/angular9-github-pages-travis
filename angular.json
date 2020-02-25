@@ -44,7 +44,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "baseHref": "https://github.com/sutin1234/angular9-github-pages-travis",
+              "baseHref": "https://sutin1234.github.io/angular9-github-pages-travis",
               "budgets": [
                 {
                   "type": "initial",
