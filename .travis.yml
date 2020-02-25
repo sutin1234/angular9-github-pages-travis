@@ -1,0 +1,24 @@
+dist: ubuntu
+sudo: false
+
+language: node_js
+node_js:
+  - "12"
+
+cache:
+  directories:
+     - ./node_modules
+
+install:
+  - npm install
+
+script:
+  - npm build:prod
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/angular9-github-pages-travis
+  on:
+    branch: master
