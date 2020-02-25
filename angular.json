@@ -45,6 +45,7 @@
               "vendorChunk": false,
               "buildOptimizer": true,
               "baseHref": "https://sutin1234.github.io/angular9-github-pages-travis",
+              "deployUrl": "https://sutin1234.github.io/angular9-github-pages-travis/",
               "budgets": [
                 {
                   "type": "initial",
